@@ -1,0 +1,6 @@
+{
+  "list_users_url": "/users?page=2",
+  "list_resource_details_url": "/unknown",
+  "users_url": "/users",
+  "register_url": "/register"
+}
