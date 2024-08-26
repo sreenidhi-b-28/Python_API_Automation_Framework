@@ -42,8 +42,8 @@ class TestUsers:
 
         """Create the excel sheet and save the response of the users data that has been created"""
         df = pd.DataFrame(excel_data)
-        folder_path = '../output_data'
-        file_path = '../output_data/users_data.xlsx'
+        folder_path = '../reports'
+        file_path = f'{folder_path}/users_data.xlsx'
         if not os.path.exists(folder_path):
             os.mkdir(folder_path)
         with pd.ExcelWriter(file_path, engine='openpyxl') as writer:
@@ -56,7 +56,7 @@ class TestUsers:
         status_code, response = put_api.update_user("Tom", "HR")
         logger.info(f"Status code: {status_code}")
         logger.info(f"Response: {response}")
-        assert status_code == 201
+        assert status_code == 200
         assert response['name'] == "Tom"
         assert response["job"] == "HR"
 
@@ -66,5 +66,5 @@ class TestUsers:
         put_api = ApiUsers(base_url=self.base_url)
         status_code, response = put_api.partial_update_user("Accounts")
         logger.info(f"Status code: {status_code} and Job: {response['job']}")
-        assert status_code == 201
+        assert status_code == 200
         assert response["job"] == "Accounts"
