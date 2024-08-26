@@ -102,6 +102,7 @@ Move to the tests folder and execute the below command,
 ```bash
 Below command is to generate the tests using pytest
 $  pytest -rA --alluredir=../reports/allure_reports
+```
 
 Generate the allure reports using the below command,
 ```bash
