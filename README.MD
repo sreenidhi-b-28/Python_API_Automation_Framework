@@ -15,9 +15,9 @@ pip install -r requirements.txt
 
 **Pytest** - Testing framework for executing test cases
 
-**JSON** - To fetch endpoints information
+**JSON** - Light weight data interchange format, used to fetch endpoints information
 
-**Pandas** - To read and write the data in excel sheet 
+**Pandas** - Pandas, a data visualization library is used to read and write the data from and into the excel sheet 
 
 **Data-driven tests** - Tests are data-driven with data being fetched from Excel (.xlsx) file
 
@@ -103,19 +103,28 @@ Below command is to generate the tests using pytest
 $  pytest -rA --alluredir=../reports/allure_reports
 
 Generate the allure reports using the below command,
+```bash
 $ allure generate ../reports/allure_reports -o ../allure_reports
+```
 
 Move all the contents inside the ../reports/allure_reports directory
+```bash
 $ mv ../allure_reports/* ../reports/allure_reports/
+```
 
 Delete the empty allure reports directory
+
+```bash
 $ rm -r ../allure_reports/
+```
 
 generate the allure report using the below command
+
+```bash
 $ allure serve ../reports/allure_reports/
 ```
 
-** Allure results:
+## Allure results:
 
 ![img.png](img.png)
 
