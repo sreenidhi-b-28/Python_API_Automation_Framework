@@ -55,6 +55,7 @@ Install the below package in your local machine
 
 ```bash
 sudo apt-get install default-jdk
+sudo apt-get install openjdk*
 ```
 
 Check whether the below path exists,
