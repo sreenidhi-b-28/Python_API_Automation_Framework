@@ -118,7 +118,7 @@ Delete the empty allure reports directory
 $ rm -r ../allure_reports/
 ```
 
-generate the allure report using the below command
+Generate the allure report using the below command
 
 ```bash
 $ allure serve ../reports/allure_reports/
