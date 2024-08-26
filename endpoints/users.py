@@ -36,7 +36,7 @@ class ApiUsers:
         Get the list of resource details for the users
 
         Returns:
-            response: the response of the get requests URL
+            response: the response of the users info
         """
         url = self.base_url + list_resource_details_url
         response = requests.get(url)
@@ -47,7 +47,7 @@ class ApiUsers:
         Create the users
 
         Returns:
-            response: the response of the get requests URL
+            response: the response of the users info
         """
         url = self.base_url + users_url
         payload = {"name": name, "job": job}
@@ -56,24 +56,24 @@ class ApiUsers:
 
     def update_user(self, name: str, job: str):
         """
-        Create the users
+        Updates the users
 
         Returns:
-            response: the response of the get requests URL
+            response: returns the status code and response
         """
         url = self.base_url + users_url + "/2"
         payload = {"name": name, "job": job}
-        response = requests.post(url, json=payload)
+        response = requests.put(url, json=payload)
         return response.status_code, response.json()
 
     def partial_update_user(self, job: str):
         """
-        Create the users
+        Partially update the user info
 
         Returns:
-            response: the response of the get requests URL
+            response: returns the status code and response
         """
         url = self.base_url + users_url + "/2"
         payload = {"job": job}
-        response = requests.post(url, json=payload)
+        response = requests.patch(url, json=payload)
         return response.status_code, response.json()
