@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Test method to create the users","2037","test_create_user","","Mon Aug 26 18:21:01 IST 2024","passed","Mon Aug 26 18:21:03 IST 2024","TestUsers","test_users","",""
+"Test method to check the get resource endpoint","75","test_get_resource","","Mon Aug 26 18:21:01 IST 2024","passed","Mon Aug 26 18:21:01 IST 2024","TestUsers","test_users","",""
+"Test method to check the partial update endpoint","404","test_partial_update_user","","Mon Aug 26 18:21:04 IST 2024","passed","Mon Aug 26 18:21:04 IST 2024","TestUsers","test_users","",""
+"Test method to check the registration endpoint","515","test_register","","Mon Aug 26 18:21:00 IST 2024","passed","Mon Aug 26 18:21:01 IST 2024","TestRegister","test_register","",""
+"Test method to check put update","391","test_update_user","","Mon Aug 26 18:21:03 IST 2024","passed","Mon Aug 26 18:21:04 IST 2024","TestUsers","test_users","",""
+"Test method to check without the password","508","test_negative_register","","Mon Aug 26 18:21:01 IST 2024","passed","Mon Aug 26 18:21:01 IST 2024","TestRegister","test_register","",""
+"Test method to check the get user endpoint","41","test_get_users","","Mon Aug 26 18:21:01 IST 2024","passed","Mon Aug 26 18:21:01 IST 2024","TestUsers","test_users","",""

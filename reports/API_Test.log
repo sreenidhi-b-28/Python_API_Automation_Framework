@@ -1,18 +1,36 @@
-2024-08-26 16:41:04,141 - API Python tests - INFO - Check registration endpoints
-2024-08-26 16:41:04,588 - API Python tests - INFO - Status code: 200
-2024-08-26 16:41:04,597 - API Python tests - INFO - Check registration endpoints without providing password
-2024-08-26 16:41:04,952 - API Python tests - INFO - Status code: 400
-2024-08-26 16:41:04,952 - API Python tests - INFO - Error message: Missing password
-2024-08-26 16:41:05,019 - API Python tests - INFO - Get resource details
-2024-08-26 16:41:05,072 - API Python tests - INFO - Status code: 200
-2024-08-26 16:41:05,075 - API Python tests - INFO - Post method to create user records
-2024-08-26 16:41:05,425 - API Python tests - INFO - User Afra created with status code 201
-2024-08-26 16:41:05,768 - API Python tests - INFO - User Ania created with status code 201
-2024-08-26 16:41:06,121 - API Python tests - INFO - User Bob created with status code 201
-2024-08-26 16:41:06,495 - API Python tests - INFO - User Jack created with status code 201
-2024-08-26 16:41:06,847 - API Python tests - INFO - User Jill created with status code 201
-2024-08-26 16:41:06,896 - API Python tests - INFO - To update the user
-2024-08-26 16:41:07,266 - API Python tests - INFO - Status code: 200
-2024-08-26 16:41:07,266 - API Python tests - INFO - Response: {'name': 'Tom', 'job': 'HR', 'updatedAt': '2024-08-26T11:11:07.177Z'}
-2024-08-26 16:41:07,268 - API Python tests - INFO - To update the resource partially
-2024-08-26 16:41:07,627 - API Python tests - INFO - Status code: 200 and Job: Accounts
+2024-08-26 18:20:45,636 - API Python tests - INFO - Check registration endpoints
+2024-08-26 18:20:46,182 - API Python tests - INFO - Status code: 200
+2024-08-26 18:20:46,188 - API Python tests - INFO - Check registration endpoints without providing password
+2024-08-26 18:20:46,590 - API Python tests - INFO - Status code: 400
+2024-08-26 18:20:46,591 - API Python tests - INFO - Error message: Missing password
+2024-08-26 18:20:46,649 - API Python tests - INFO - Get resource details
+2024-08-26 18:20:46,696 - API Python tests - INFO - Status code: 200
+2024-08-26 18:20:46,700 - API Python tests - INFO - Post method to create user records
+2024-08-26 18:20:47,099 - API Python tests - INFO - User Afra created with status code 201
+2024-08-26 18:20:47,512 - API Python tests - INFO - User Ania created with status code 201
+2024-08-26 18:20:47,914 - API Python tests - INFO - User Bob created with status code 201
+2024-08-26 18:20:48,324 - API Python tests - INFO - User Jack created with status code 201
+2024-08-26 18:20:48,736 - API Python tests - INFO - User Jill created with status code 201
+2024-08-26 18:20:48,752 - API Python tests - INFO - To update the user
+2024-08-26 18:20:49,148 - API Python tests - INFO - Status code: 200
+2024-08-26 18:20:49,149 - API Python tests - INFO - Response: {'name': 'Tom', 'job': 'HR', 'updatedAt': '2024-08-26T12:50:49.014Z'}
+2024-08-26 18:20:49,154 - API Python tests - INFO - To update the resource partially
+2024-08-26 18:20:49,556 - API Python tests - INFO - Status code: 200 and Job: Accounts
+2024-08-26 18:21:00,613 - API Python tests - INFO - Check registration endpoints
+2024-08-26 18:21:01,125 - API Python tests - INFO - Status code: 200
+2024-08-26 18:21:01,134 - API Python tests - INFO - Check registration endpoints without providing password
+2024-08-26 18:21:01,639 - API Python tests - INFO - Status code: 400
+2024-08-26 18:21:01,642 - API Python tests - INFO - Error message: Missing password
+2024-08-26 18:21:01,693 - API Python tests - INFO - Get resource details
+2024-08-26 18:21:01,765 - API Python tests - INFO - Status code: 200
+2024-08-26 18:21:01,770 - API Python tests - INFO - Post method to create user records
+2024-08-26 18:21:02,150 - API Python tests - INFO - User Afra created with status code 201
+2024-08-26 18:21:02,558 - API Python tests - INFO - User Ania created with status code 201
+2024-08-26 18:21:02,970 - API Python tests - INFO - User Bob created with status code 201
+2024-08-26 18:21:03,376 - API Python tests - INFO - User Jack created with status code 201
+2024-08-26 18:21:03,788 - API Python tests - INFO - User Jill created with status code 201
+2024-08-26 18:21:03,809 - API Python tests - INFO - To update the user
+2024-08-26 18:21:04,199 - API Python tests - INFO - Status code: 200
+2024-08-26 18:21:04,200 - API Python tests - INFO - Response: {'name': 'Tom', 'job': 'HR', 'updatedAt': '2024-08-26T12:51:04.090Z'}
+2024-08-26 18:21:04,205 - API Python tests - INFO - To update the resource partially
+2024-08-26 18:21:04,609 - API Python tests - INFO - Status code: 200 and Job: Accounts

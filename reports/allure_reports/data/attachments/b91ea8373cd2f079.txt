@@ -1,0 +1,2 @@
+[32mINFO    [0m API Python tests:test_users.py:65 To update the resource partially
+[32mINFO    [0m API Python tests:test_users.py:68 Status code: 200 and Job: Accounts

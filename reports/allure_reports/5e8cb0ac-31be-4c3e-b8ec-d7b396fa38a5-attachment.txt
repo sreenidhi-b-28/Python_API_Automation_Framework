@@ -1,0 +1,6 @@
+[32mINFO    [0m API Python tests:test_users.py:30 Post method to create user records
+[32mINFO    [0m API Python tests:test_users.py:40 User Afra created with status code 201
+[32mINFO    [0m API Python tests:test_users.py:40 User Ania created with status code 201
+[32mINFO    [0m API Python tests:test_users.py:40 User Bob created with status code 201
+[32mINFO    [0m API Python tests:test_users.py:40 User Jack created with status code 201
+[32mINFO    [0m API Python tests:test_users.py:40 User Jill created with status code 201

@@ -1,0 +1,2 @@
+[32mINFO    [0m API Python tests:test_users.py:21 Get resource details
+[32mINFO    [0m API Python tests:test_users.py:24 Status code: 200

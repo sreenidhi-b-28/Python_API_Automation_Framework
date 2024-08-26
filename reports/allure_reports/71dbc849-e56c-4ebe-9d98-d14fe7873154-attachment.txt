@@ -1,0 +1,3 @@
+[32mINFO    [0m API Python tests:test_register.py:20 Check registration endpoints without providing password
+[32mINFO    [0m API Python tests:test_register.py:24 Status code: 400
+[32mINFO    [0m API Python tests:test_register.py:25 Error message: Missing password

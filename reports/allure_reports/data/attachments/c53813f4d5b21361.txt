@@ -1,0 +1,2 @@
+[32mINFO    [0m API Python tests:test_register.py:10 Check registration endpoints
+[32mINFO    [0m API Python tests:test_register.py:13 Status code: 200
