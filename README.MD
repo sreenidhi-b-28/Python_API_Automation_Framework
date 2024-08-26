@@ -99,7 +99,10 @@ $ allure --version
 Move to the tests folder and execute the below command,
 
 ```bash
+Below command is to generate the tests using pytest
 $  pytest -rA --alluredir=../reports/allure_reports
+
+Generate the allure reports using the below command,
 $ allure generate ../reports/allure_reports -o ../allure_reports
 
 Move all the contents inside the ../reports/allure_reports directory
@@ -112,7 +115,7 @@ generate the allure report using the below command
 $ allure serve ../reports/allure_reports/
 ```
 
-Allure results:
+** Allure results:
 
 ![img.png](img.png)
 
